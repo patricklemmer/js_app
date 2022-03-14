@@ -1,12 +1,3 @@
-let myName = 'Bob';
-document.write(myName);
-
-myName = 'John Doe';
-document.write(myName);
-
-let myAge = 34 * 4;
-document.write (myAge);
-
 let size = 100;
 let doubleSize = size * 2;
 let minSize = (doubleSize * 2) - (size / 2);
@@ -19,3 +10,7 @@ document.write (favouriteFood);
 
 let bestPlaceOnEarth = 'African wilderness';
 document.write(bestPlaceOnEarth);
+
+let myName = 'Patrick';
+let age = 34;
+document.write('Hi, my name is ' + myName + '  and I am ' + age + ' years old.');
