@@ -43,9 +43,9 @@ let pokemonList = [
 
 // for loop for pokemonList items
 for (let i = 0; i < pokemonList.length; i++) {
-    document.write(pokemonList[i].name + ", height: " + pokemonList[i].height + '<br>');
+    document.write(pokemonList[i].name + ', (height: ' + pokemonList[i].height + ')' + '<br>');
     // conditional to highlight biggest Pokemon with extra text
     if (pokemonList[i].height > 6) {
-        document.write("Wow," + pokemonList[i].name + " is a big Pokemon!" + '<br>');
+        document.write('Wow,' + pokemonList[i].name + ' is a big Pokemon!' + '<br>');
     }
 }
