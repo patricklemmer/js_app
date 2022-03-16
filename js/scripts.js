@@ -7,6 +7,7 @@ let pokemonList = [
     {name: 'Jolteon', height: 2, weight: 54 , category: 'lightning' , type: ['electric']}
 ];
 
+// for loop for pokemonList items
 for (let i=0; i < pokemonList.length; i++) {
     document.write(pokemonList[i].name + ", height: " + pokemonList[i].height);
 }
