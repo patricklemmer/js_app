@@ -1,28 +1,26 @@
 :root {
-    --background-color: #fcbf49;
-    --text-color: #111;
-    --header-font-family: 'Staatliches', serif;
-    --body-font-family: 'JetBrains Mono', monospace;
-    --h1-font-size: 2rem;
-    --h2-font-size: 1.75rem;
-    --h3-font-size: 1.5rem;
-    --h4-font-size: 1.25rem;
-    --body-font-size: 1rem;
+  --background-color: #fcbf49;
+  --text-color: #111;
+  --header-font-family: "Staatliches", serif;
+  --body-font-family: "JetBrains Mono", monospace;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.5rem;
+  --h4-font-size: 1.25rem;
+  --body-font-size: 1rem;
 }
 
-*
-*::before,
+* *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-family: var(--body-font-family);
-    margin: 0;
-    padding: 0;
-    border: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-
