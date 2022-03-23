@@ -41,11 +41,9 @@ let pokemonList = [
         type: ['electric']
     }];
 
-// for loop for pokemonList items
-for (let i = 0; i < pokemonList.length; i++) {
-    document.write("<p>" + pokemonList[i].name + ', (height: ' + pokemonList[i].height + ')' + "</p>");
-    // conditional to highlight biggest Pokemon with extra text
-    if (pokemonList[i].height > 6) {
-        document.write('Wow,' + pokemonList[i].name + ' is a big Pokemon!');
-    }
+// forEach function to iterate over Pokemon in pokemonList array
+function pokemonFunction(pokemon) {
+    document.write("<p>" + pokemon.name + ' is ' + pokemon.height + ' ft tall.' + "</p>");
 }
+
+pokemonList.forEach(pokemonFunction);
