@@ -1,6 +1,8 @@
 :root {
-  --background-color: #fcbf49;
+  --primary-color: #fcbf49;
   --text-color: #111;
+  --accent-color-light: #fff;
+  --accent-color-dark: #525252;
   --header-font-family: "Staatliches", serif;
   --body-font-family: "JetBrains Mono", monospace;
   --h1-font-size: 2rem;
@@ -17,10 +19,107 @@
 
 html,
 body {
-  background-color: var(--background-color);
+  background-color: var(--primary-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
   margin: 0;
   padding: 0;
   border: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
 }
+
+.list-container {
+  max-height: 50%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.list-header {
+  font-family: var(--header-font-family);
+  font-size: calc(var(--h1-font-size) + 1.5rem);
+  color: var(--text-color);
+  margin: auto;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  max-width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-class {
+  font-family: var(--body-font-family);
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 20px 45px;
+  margin: 20px 45px;
+  border-radius: 3px;
+  border: 0.5px solid var(--accent-color-dark);
+  box-shadow: 4px 4px 3px var(--text-color);
+}
+
+.button-class:hover {
+  background-color: var(--accent-color-light);
+}
+
+/* Begin media queries */
+
+@media screen and (max-width: 1350px) {
+  .list-container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 100px auto;
+    max-width: 75%;
+    height: 100%;
+  }
+  
+  ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 50px 100px;
+    margin-top: 40px;
+  }
+  
+  .button-class {
+    margin: 150px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list-container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 100px auto;
+    max-width: 75%;
+    height: 100%;
+  }
+  
+  ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 50px 100px;
+    margin: auto;
+    margin-top: 40px;
+    
+  }
+  
+  .button-class {
+    margin: 150px 0;
+  }
+}
+
+/* End media queries */
