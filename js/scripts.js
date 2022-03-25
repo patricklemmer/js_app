@@ -42,7 +42,7 @@ let pokemonRepository = (function () {
             type: ['electric']
         }
     ]
-
+    // Public functions
     function add(pokemon) {
         pokemonList.push(pokemon);
     }
@@ -60,6 +60,8 @@ let pokemonRepository = (function () {
 })();
 
 console.log(pokemonRepository.getAll());
+
+// Adds a Pokemon
 pokemonRepository.add({ name: 'Ursaring', height: 5, weight: 277, category: 'hibernator', type: ['normal'] });
 console.log(pokemonRepository.getAll());
 
