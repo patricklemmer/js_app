@@ -1,3 +1,5 @@
+/* Begin root code */
+
 :root {
   --primary-color: #fcbf49;
   --text-color: #111;
@@ -11,6 +13,10 @@
   --h4-font-size: 1.25rem;
   --body-font-size: 1rem;
 }
+
+/* End root code */
+
+/* Begin global code */
 
 * *::before,
 *::after {
@@ -30,6 +36,12 @@ body {
   display: flex;
   flex-flow: row wrap;
 }
+
+/* End global code */
+
+/* Begin local code */
+
+/* Begin list code */
 
 .list-container {
   max-height: 50%;
@@ -57,6 +69,10 @@ ul {
   justify-content: center;
 }
 
+/* End list code */
+
+/* Begin button code */
+
 .button-class {
   font-family: var(--body-font-family);
   background-color: var(--primary-color);
@@ -71,6 +87,70 @@ ul {
 .button-class:hover {
   background-color: var(--accent-color-light);
 }
+
+/* End button code */
+
+/* Begin modal code */
+
+#modal-container {
+  position: fixed;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  
+  /* To show modal above other content */
+  z-index: 999; 
+  
+  /* To allow scrolling if the screen is not high enough */
+  overflow: auto; 
+  
+  /* Centers the modal */
+  display: grid;
+  text-align: center;
+}
+
+.modal {
+  margin: auto;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  max-width: 700px;
+  text-align: left;
+}
+
+.modal-close {
+  float: right;
+  -webkit-appearance: none;
+  border: 0;
+  background: none;
+  color: #777;
+  text-decoration: underline;
+}
+
+.modal h1 {
+  margin-top: 0;
+}
+
+.modal p {
+  margin-bottom: 0;
+}
+
+#modal-container {
+  display: none;
+}
+
+#modal-container.is-visible {
+  /* CSS for modal container - add your own desired CSS styles here */
+  display: block;
+}
+
+/* End modal code */
 
 /* Begin media queries */
 
@@ -123,3 +203,5 @@ ul {
 }
 
 /* End media queries */
+
+/* End local code */
