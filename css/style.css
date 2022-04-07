@@ -229,13 +229,6 @@ ul {
     margin: 150px 0;
   }
 
-  .image-class{
-    display: block;
-    width: 25%;
-    height: auto;
-    border: 0.5px solid var(--accent-color-dark);
-    box-shadow: 4px 8px 6px var(--text-color);
-  }
 }
 
 /* End media queries */
