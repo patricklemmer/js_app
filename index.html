@@ -17,12 +17,13 @@
     <body>
         <main class="list-container">
             <h1 class="list-header">Pokedex</h1>
-            <ul class="pokemon-list"></ul>
             <div id="modal-container">
-                <div class="modal"></div>
+                <div class="modal">
+                    <button id="show-modal">Show modal</button>
+                    <img src="" alt="pokemon_sprite" class="modal__img">
+                </div>
             </div>
-            <button id="show-modal">Show modal</button>
-
+            <ul class="pokemon-list"></ul>
         </main>
         <script src="./js/promise-polyfill.js"></script>
         <script src="./js/fetch-polyfill.js"></script>
