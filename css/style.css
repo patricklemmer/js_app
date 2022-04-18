@@ -59,6 +59,12 @@ body {
   text-decoration: underline;
 }
 
+.list-group-item {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+
 ul {
   list-style: none;
   margin: auto;
