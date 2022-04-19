@@ -46,7 +46,7 @@ body {
   background-color: var(--secondary-color);
   height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navbar-brand {
