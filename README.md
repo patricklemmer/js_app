@@ -83,7 +83,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Key features
 
-* Load data from an external souce
+* Load data from an external souce (-> https://pokeapi.co/)
 * View a list of items
 * On user action, view details for that item
 
@@ -196,13 +196,12 @@ If you have a suggestion that would make this app better, please fork the repo a
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments ***(to be updated)***
+## Acknowledgments
 
-<!--
-* []()
-* []()
-* []()
--->
+
+* [Pokemon icon set from GitHub, provided by @duiker101](https://github.com/duiker101/pokemon-type-svg-icons)
+* [Bootstrap framework (v5.1.3) ](https://getbootstrap.com/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
