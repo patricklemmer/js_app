@@ -51,7 +51,6 @@ body {
   color: var(--text-color);
   font-size: calc(var(--h1-font-size) + .3rem);
   text-transform: uppercase;
-  margin-right: 50px;
 }
 
 .nav-link {
