@@ -55,7 +55,7 @@ body {
 
 .collapse {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .nav-link {
