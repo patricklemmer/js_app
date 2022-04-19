@@ -1,17 +1,19 @@
 /* Begin root code */
 
 :root {
-  --primary-color: #fcbf49;
-  --text-color: #111;
+  --primary-color: #0075be;
+  --secondary-color: #0a285f;
+  --text-color: #fc0;
   --accent-color-light: #fff;
   --accent-color-dark: #525252;
-  --header-font-family: "Staatliches", serif;
-  --body-font-family: "JetBrains Mono", monospace;
+  --header-font-family: 'Press Start 2P', cursive;
+  --body-font-family: 'Press Start 2P', cursive;
   --h1-font-size: 2rem;
   --h2-font-size: 1.75rem;
   --h3-font-size: 1.5rem;
   --h4-font-size: 1.25rem;
   --body-font-size: 1rem;
+
 }
 
 /* End root code */
@@ -39,13 +41,54 @@ body {
 
 /* Begin local code */
 
+/* Begin navbar code */
+
+.navbar {
+  background-color: var(--secondary-color);
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  color: var(--text-color);
+  font-size: calc(var(--h1-font-size) + .3rem);
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: var(--text-color);
+  font-size: 0.7rem;
+}
+
+.form-control {
+  height: 28px;
+}
+
+.btn-warning {
+  font-size: calc(var(--body-font-size) - 0.3rem);
+  margin-right: 5px;
+}
+
+.btn-warning:hover {
+  color: white;
+}
+
+.btn-outline-warning {
+  color: var(--text-color);
+  font-size: calc(var(--body-font-size) - 0.3rem);
+}
+
+/* End navbar code */
+
 /* Begin list code */
 
-.list-container {
+.container {
   height: 100%;
   width: 100%;
   margin: auto;
-  outline: 2px solid green;
+  outline: 3px solid white;
 }
 
 /* Delete */
@@ -61,20 +104,21 @@ body {
 .list-group-item {
   background-color: var(--primary-color);
   border: none;
+  outline: 3px solid black;
 }
 
 
-ul {
+/* ul {
   list-style: none;
   margin: auto;
   max-width: 75%;
-}
+} */
 
 /* End list code */
 
 /* Begin button code */
 
-.button-class {
+/* .button-class {
   font-family: var(--body-font-family);
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -91,7 +135,7 @@ ul {
 
 .button-class:hover {
   background-color: var(--accent-color-light);
-}
+} */
 
 /* End button code */
 
@@ -184,6 +228,12 @@ ul {
 /* End modal code */
 
 /* Begin media queries */
+
+/* @media (min-width: 1000px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+  }
+} */
 
 /* @media screen and (max-width: 1350px) {
   .list-container{
