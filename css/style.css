@@ -54,8 +54,7 @@ body {
 }
 
 .collapse {
-  display: flex;
-  justify-content: center;
+  padding-left: 40px;
 }
 
 .nav-link {
