@@ -53,8 +53,9 @@ body {
   text-transform: uppercase;
 }
 
-.navbar-collapse {
-  padding-left: 40px;
+#navbarSupportedContent {
+  display: flex;
+  justify-content: center;
 }
 
 .nav-link {
