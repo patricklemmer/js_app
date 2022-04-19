@@ -13,7 +13,6 @@
   --h3-font-size: 1.5rem;
   --h4-font-size: 1.25rem;
   --body-font-size: 1rem;
-
 }
 
 /* End root code */
@@ -46,7 +45,6 @@ body {
 .navbar {
   background-color: var(--secondary-color);
   height: 100px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -72,11 +70,12 @@ body {
 }
 
 .btn-warning:hover {
+  background-color: var(--text-color);
   color: white;
 }
 
 .btn-outline-warning {
-  color: var(--text-color);
+  color: black;
   font-size: calc(var(--body-font-size) - 0.3rem);
 }
 
@@ -84,206 +83,175 @@ body {
 
 /* Begin list code */
 
-.container {
-  height: 100%;
-  width: 100%;
+.page-container {
   margin: auto;
-  outline: 3px solid white;
+  margin-top: 130px;
+  margin-bottom: 50px;
 }
 
-/* Delete */
-/* .list-header {
-  font-family: var(--header-font-family);
-  font-size: calc(var(--h1-font-size) + 1.5rem);
-  color: var(--text-color);
-  margin: auto;
-  margin-bottom: 20px;
-  text-decoration: underline;
-} */
-
-.list-group-item {
-  background-color: var(--primary-color);
-  border: none;
-  outline: 3px solid black;
+.pokemon-list-item {
+  text-transform: capitalize;
 }
-
-
-/* ul {
-  list-style: none;
-  margin: auto;
-  max-width: 75%;
-} */
 
 /* End list code */
 
 /* Begin button code */
 
-/* .button-class {
-  font-family: var(--body-font-family);
-  background-color: var(--primary-color);
-  color: var(--text-color);
-  padding: 20px 45px;
-  margin: 20px 45px;
-  border-radius: 3px;
-  border: 0.5px solid var(--accent-color-dark);
-  box-shadow: 4px 4px 3px var(--text-color);
+li {
+  list-style: none;
+  padding: 5px;
 }
 
-.button-class::first-letter {
-  text-transform: uppercase;
+.btn {
+  background-color: var(--text-color);
+  margin: 2px;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  text-transform: capitalize;
 }
 
-.button-class:hover {
-  background-color: var(--accent-color-light);
-} */
+.btn-light {
+  width: 100%;
+  height: 100%;
+}
 
 /* End button code */
 
 /* Begin modal code */
 
-/* #modal-container {
-  position: fixed;
-  padding: 20px;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); */
-  
-  /* To show modal above other content */
-  /* z-index: 999;  */
-  
-  /* To allow scrolling if the screen is not high enough */
-  /* overflow: auto;  */
-  
-  /* Centers the modal */
-  /* display: grid;
-  text-align: center;
-}
-
-#modal-container {
+.hidden {
   display: none;
 }
 
-#modal-container.is-visible { */
-  /* CSS for modal container - add your own desired CSS styles here */
-  /* color: var(--text-color);
-  display: block;
+.modal-header {
+  color: var(--primary-color);
+  text-transform: capitalize;
 }
 
-.modal {
-  background-color: var(--accent-color-light);
-  margin: auto;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 40px 40px 20px 70px;
-  width: 100%;
-  max-width: 700px;
-  height: 30vh;
-  text-align: left;
-  border-radius: 3px;
-  border: 0.5px solid var(--accent-color-dark);
-  box-shadow: 4px 4px 3px var(--text-color);
-  position: relative;
-  top: 25vh;
-  bottom: 25vh;
+.modal-body {
+  color: var(--primary-color);
+  padding-top: 0;
 }
 
-.image-class{
-  width: 25%;
-  height: auto;
-  border: 0.5px solid var(--accent-color-dark);
-  box-shadow: 4px 8px 6px var(--text-color);
-  position: absolute;
-  right: 60px;
-  bottom: 50px;
+.modal-title {
+  margin-right: -46px;
 }
 
-.modal-close {
-  color: var(--accent-color-dark);
-  float: right;
-  -webkit-appearance: none;
-  border: 0;
-  background: none;
-  text-decoration: underline;
+.type-container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  gap: 5px;
+  margin-bottom: 5px;
 }
 
-.modal h1 {
-  font-family: var(--header-font-family);
-  font-size: calc(var(--h1-font-size) + 2rem);
-  margin-top: 0;
+.pokemon-type-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
-.modal p {
-  font-size: calc(var(--body-font-size) + 0.2rem);
-  font-weight: bold;
-  margin-bottom: 0;
+.modal-pokemon-image {
+  height: 150px;
+  width: 150px;
 }
 
-.modal p::first-letter {
-  text-transform: uppercase;
-} */
+.pokemon-stats p {
+  margin: 0;
+}
+
+.icon-wrapper {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.type-name {
+  margin: 0;
+}
+
+.type-svg {
+  height: 60%;
+  width: 60%;
+  margin: 20%;
+}
 
 /* End modal code */
 
-/* Begin media queries */
+/* Begin SVG style code */
 
-/* @media (min-width: 1000px) {
-  .navbar-expand-lg {
-    flex-flow: row nowrap;
-  }
-} */
-
-/* @media screen and (max-width: 1350px) {
-  .list-container{
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 100px auto;
-    max-width: 75%;
-    height: 100%;
-  }
-  
-  ul {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    padding: 50px 100px;
-    margin-top: 40px;
-  }
-  
-  .button-class {
-    margin: 150px 0;
-  }
+.bug {
+  background: #81b606;
 }
 
-@media screen and (max-width: 768px) {
-  .list-container{
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 100px auto;
-    max-width: 75%;
-    height: 100%;
-  }
-  
-  ul {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    padding: 50px 100px;
-    margin: auto;
-    margin-top: 40px;
-    
-  }
-  
-  .button-class {
-    margin: 150px 0;
-  }
+.dark {
+  background: #595761;
+}
 
-} */
+.dragon {
+  background: #0c69c8;
+}
 
-/* End media queries */
+.electric {
+  background: #e9e0af;
+}
+
+.fire {
+  background: #f16d39;
+}
+
+.fairy {
+  background: #ee90e6;
+}
+
+.fighting {
+  background: #d3425f;
+}
+
+.flying {
+  background: #a1bbec;
+}
+
+.ghost {
+  background: #5f6dbc;
+}
+
+.grass {
+  background: #5fbd58;
+}
+
+.ground {
+  background: #af5c0e73;
+}
+
+.ice {
+  background: #75d0c1;
+}
+
+.normal {
+  background: #a0a29f;
+}
+
+.poison {
+  background: #ab0cc0;
+}
+
+.psychic {
+  background: #fa8581;
+}
+
+.rock {
+  background: #4a4a4b;
+}
+
+.steel {
+  background: #5695a3;
+}
+
+.water {
+  background: #539ddf;
+}
+
+/* End SVG style code */
 
 /* End local code */
