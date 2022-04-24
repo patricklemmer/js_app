@@ -202,7 +202,7 @@ li {
 .type-name {
   font-size: calc(var(--body-font-size) - 0.15rem);
   margin: 0;
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .type-svg {
