@@ -42,20 +42,37 @@ body {
 
 /* Begin navbar code */
 
-.navbar {
+.navbar-custom {
   background-color: var(--secondary-color);
   height: 100px;
 }
 
-.navbar-brand {
+.container-fluid {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  outline: 2px solid red;
+}
+
+.brand-custom {
   color: var(--text-color);
   font-size: calc(var(--h1-font-size) + .3rem);
   text-transform: uppercase;
+  outline: 2px solid green;
 }
 
-.nav-link {
+.brand-custom:hover {
+  color: var(--text-color);
+}
+
+.li-custom a {
   color: var(--text-color);
   font-size: 0.7rem;
+}
+
+.li-custom a:hover {
+  color:white;
 }
 
 .form-inline {
@@ -65,6 +82,8 @@ body {
 
 .form-control {
   height: 30px;
+  width: 250px;
+  margin-left: 50px;
 }
 
 .btn-warning {
@@ -80,6 +99,22 @@ body {
 .btn-outline-warning {
   color: black;
   font-size: calc(var(--body-font-size) - 0.3rem);
+}
+
+#navbarSupportedContent {
+  max-width: 1250px;
+  outline: 2px solid white;
+}
+
+.toggler-custom {
+  margin-right: 10px;
+  color: white;
+  outline: 2px solid orange;
+}
+
+.toggler-icon-custom {
+  color: red;
+  outline: 3px solid green;
 }
 
 /* End navbar code */
