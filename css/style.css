@@ -58,8 +58,13 @@ body {
   font-size: 0.7rem;
 }
 
+.form-inline {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .form-control {
-  height: 28px;
+  height: 30px;
 }
 
 .btn-warning {
@@ -124,6 +129,7 @@ li {
 .modal-header {
   color: var(--primary-color);
   text-transform: capitalize;
+  border: none;
 }
 
 .modal-body {
@@ -138,7 +144,7 @@ li {
 .type-container {
   display: flex;
   align-items: center;
-  width: 100px;
+  width: 150px;
   gap: 5px;
   margin-bottom: 5px;
 }
@@ -158,6 +164,10 @@ li {
   margin: 0;
 }
 
+.modal-type-wrapper {
+  width: auto;
+}
+
 .icon-wrapper {
   height: 40px;
   width: 40px;
@@ -165,12 +175,13 @@ li {
 }
 
 .type-name {
+  font-size: calc(var(--body-font-size) - 0.15rem);
   margin: 0;
 }
 
 .type-svg {
-  height: 60%;
-  width: 60%;
+  height: 24px;
+  width: 24px;
   margin: 20%;
 }
 
