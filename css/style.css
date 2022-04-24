@@ -52,14 +52,12 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  outline: 2px solid red;
 }
 
 .brand-custom {
   color: var(--text-color);
   font-size: calc(var(--h1-font-size) + .3rem);
   text-transform: uppercase;
-  outline: 2px solid green;
 }
 
 .brand-custom:hover {
@@ -103,18 +101,10 @@ body {
 
 #navbarSupportedContent {
   max-width: 1250px;
-  outline: 2px solid white;
 }
 
 .toggler-custom {
   margin-right: 10px;
-  color: white;
-  outline: 2px solid orange;
-}
-
-.toggler-icon-custom {
-  color: red;
-  outline: 3px solid green;
 }
 
 /* End navbar code */
