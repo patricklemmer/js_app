@@ -88,11 +88,10 @@ body {
 /* Begin howto box code */
 
 .howto-box {
-  background-color: var(--text-color);
+  background-color: var(--secondary-color);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: black;
+  color: white;
   height: auto;
-  border: 1px solid var(--secondary-color);
   border-radius: 10px;
   padding: 20px;
   margin: auto;
@@ -109,6 +108,7 @@ body {
 }
 
 .howto-box  p span {
+  color: var(--text-color);
   font-weight: 700;
 }
 
