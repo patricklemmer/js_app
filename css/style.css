@@ -184,7 +184,7 @@ li {
 .type-container {
   display: flex;
   align-items: center;
-  width: 150px;
+  width: 190px;
   gap: 5px;
   margin-bottom: 5px;
 }
@@ -217,7 +217,7 @@ li {
 .type-name {
   font-size: calc(var(--body-font-size) - 0.15rem);
   margin: 0;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .type-svg {
