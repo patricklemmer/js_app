@@ -45,43 +45,53 @@ body {
 .navbar-custom {
   background-color: var(--secondary-color);
   height: 100px;
+  border: 3px solid green;
 }
 
 .container-fluid {
   background-color: var(--secondary-color);
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: center;
+  outline: 2px solid orangered;
 }
 
 .brand-custom {
   color: var(--text-color);
   font-size: calc(var(--h1-font-size) + .3rem);
   text-transform: uppercase;
+  outline: 2px solid white;
 }
 
 .brand-custom:hover {
   color: var(--text-color);
 }
 
+.navbar-nav {
+  outline: 2px solid teal;
+}
+
 .li-custom a {
   color: var(--text-color);
   font-size: 0.7rem;
+  outline: 2px solid red;
 }
 
 .li-custom a:hover {
   color:white;
 }
 
-.form-inline {
+.d-flex {
   display: flex;
   flex-flow: row nowrap;
+  outline: 2px solid purple;
 }
 
 .form-control {
   height: 30px;
-  width: 250px;
-  margin-left: 50px;
+  /* width: 250px; */
+  /* margin-left: 50px; */
+  outline: 2px solid yellow;
 }
 
 .btn-warning {
@@ -105,6 +115,11 @@ body {
 
 .toggler-custom {
   margin-right: 10px;
+  outline: 2px solid white;
+}
+
+.toggler-custom span {
+  outline: 2px solid orange;
 }
 
 /* End navbar code */
