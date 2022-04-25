@@ -118,7 +118,7 @@ body {
   color: black;
   background-color: var(--text-color);
   border: 1px solid var(--secondary-color);
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 4px 10px;
 }
 
