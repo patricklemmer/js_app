@@ -55,6 +55,10 @@ body {
   color: var(--text-color);
 }
 
+.navbar-nav {
+  margin: auto;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   font-size: calc(var(--body-font-size) - 0.2rem);
   color: var(--text-color);
