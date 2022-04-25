@@ -78,10 +78,6 @@ body {
   border: var(--text-color);
 }
 
-.navbar-dark .navbar-toggler {
-  border-color: white;
-}
-
 /* End navbar code */
 
 /* Begin list code */
