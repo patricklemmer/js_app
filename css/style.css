@@ -42,84 +42,48 @@ body {
 
 /* Begin navbar code */
 
-.navbar-custom {
+.navbar {
   background-color: var(--secondary-color);
-  height: 100px;
-  border: 3px solid green;
 }
 
-.container-fluid {
-  background-color: var(--secondary-color);
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  outline: 2px solid orangered;
-}
-
-.brand-custom {
-  color: var(--text-color);
-  font-size: calc(var(--h1-font-size) + .3rem);
-  text-transform: uppercase;
-  outline: 2px solid white;
-}
-
-.brand-custom:hover {
+.navbar-dark .navbar-brand {
+  font-size: var(--h1-font-size);
   color: var(--text-color);
 }
 
-.navbar-nav {
-  outline: 2px solid teal;
-}
-
-.li-custom a {
+.navbar-dark .navbar-brand:hover {
   color: var(--text-color);
-  font-size: 0.7rem;
-  outline: 2px solid red;
 }
 
-.li-custom a:hover {
-  color:white;
+.navbar-dark .navbar-nav .nav-link {
+  font-size: calc(var(--body-font-size) - 0.2rem);
+  color: var(--text-color);
 }
 
-.d-flex {
-  display: flex;
-  flex-flow: row nowrap;
-  outline: 2px solid purple;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
 }
 
-.form-control {
-  height: 30px;
-  /* width: 250px; */
-  /* margin-left: 50px; */
-  outline: 2px solid yellow;
+.navbar-dark .form-inline .form-control {
+  font-size: calc(var(--body-font-size) - 0.2rem);
 }
 
 .btn-warning {
-  font-size: calc(var(--body-font-size) - 0.3rem);
-  margin-right: 5px;
+  font-size: calc(var(--body-font-size) - 0.2rem);
 }
 
 .btn-warning:hover {
   background-color: var(--text-color);
   color: white;
+  border: var(--text-color);
 }
 
-.btn-outline-warning {
-  color: black;
-  font-size: calc(var(--body-font-size) - 0.3rem);
+.navbar-dark .navbar-toggler {
+  border-color: white;
 }
 
-#navbarSupportedContent {
-  max-width: 1250px;
-}
-
-.toggler-custom {
-  margin-right: 10px;
-  outline: 2px solid white;
-}
-
-.toggler-custom span {
-  outline: 2px solid orange;
+.navbar-toggler .navbar-toggler-icon {
+  : green;
 }
 
 /* End navbar code */
@@ -128,7 +92,7 @@ body {
 
 .page-container {
   margin: auto;
-  margin-top: 130px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
