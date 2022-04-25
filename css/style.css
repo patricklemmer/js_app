@@ -112,6 +112,16 @@ body {
   font-weight: 700;
 }
 
+#search-button-text {
+  font-family: var(--body-font-family);
+  font-size: calc(var(--body-font-size) - 0.25rem);
+  color: black;
+  background-color: var(--text-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 4px 10px;
+}
+
 /* End howto box code */
 
 /* Begin list code */
