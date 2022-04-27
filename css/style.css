@@ -211,13 +211,14 @@ li {
 .icon-wrapper {
   height: 40px;
   width: 40px;
+  margin-left: 20px;
+  margin-right: 5px;
   border-radius: 100%;
 }
 
 .type-name {
   font-size: calc(var(--body-font-size) - 0.15rem);
   margin: 0;
-  margin-left: 5px;
 }
 
 .type-svg {
