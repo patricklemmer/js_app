@@ -1,0 +1,308 @@
+/* Begin root code */
+
+:root {
+  --primary-color: #0075be;
+  --secondary-color: #0a285f;
+  --text-color: #fc0;
+  --accent-color-light: #fff;
+  --accent-color-dark: #525252;
+  --header-font-family: 'Press Start 2P', cursive;
+  --body-font-family: 'Press Start 2P', cursive;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.5rem;
+  --h4-font-size: 1.25rem;
+  --body-font-size: 1rem;
+  --body-line-height: 1.25rem;
+}
+
+/* End root code */
+
+/* Begin global code */
+
+* *::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* End global code */
+
+/* Begin local code */
+
+/* Begin navbar code */
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.navbar-dark .navbar-brand {
+  font-size: var(--h1-font-size);
+  color: var(--text-color);
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: var(--text-color);
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: calc(var(--body-font-size) - 0.2rem);
+  color: var(--text-color);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-dark .form-inline .form-control {
+  font-size: calc(var(--body-font-size) - 0.2rem);
+}
+
+.btn-warning {
+  font-size: calc(var(--body-font-size) - 0.2rem);
+}
+
+.btn-warning:hover {
+  background-color: var(--text-color);
+  color: white;
+  border: var(--text-color);
+}
+
+/* End navbar code */
+
+/* Begin howto box code */
+
+.howto-box {
+  background-color: var(--secondary-color);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.howto-box h3 {
+  margin-bottom: 30px;
+}
+
+.howto-box p {
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+
+.howto-box  p span {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+#search-button-text {
+  font-family: var(--body-font-family);
+  font-size: calc(var(--body-font-size) - 0.25rem);
+  color: black;
+  background-color: var(--text-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+/* End howto box code */
+
+/* Begin list code */
+
+.page-container {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pokemon-list-item {
+  text-transform: capitalize;
+}
+
+/* End list code */
+
+/* Begin button code */
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+.btn {
+  background-color: var(--text-color);
+  margin: 2px;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  text-transform: capitalize;
+}
+
+.btn-light {
+  width: 100%;
+  height: 100%;
+}
+
+/* End button code */
+
+/* Begin modal code */
+
+.hidden {
+  display: none;
+}
+
+.modal-header {
+  color: var(--primary-color);
+  text-transform: capitalize;
+  border: none;
+}
+
+.modal-body {
+  color: var(--primary-color);
+  padding-top: 0;
+}
+
+.modal-title {
+  margin-right: -46px;
+}
+
+.type-container {
+  display: flex;
+  align-items: center;
+  width: 190px;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.pokemon-type-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.modal-pokemon-image {
+  height: 150px;
+  width: 150px;
+}
+
+.pokemon-stats p {
+  margin: 0;
+}
+
+.modal-type-wrapper {
+  width: auto;
+}
+
+.icon-wrapper {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+
+.type-name {
+  font-size: calc(var(--body-font-size) - 0.15rem);
+  margin: 0;
+}
+
+.type-svg {
+  height: 24px;
+  width: 24px;
+  margin: 20%;
+}
+
+/* End modal code */
+
+/* Begin SVG style code */
+
+.bug {
+  background: #81b606;
+}
+
+.dark {
+  background: #595761;
+}
+
+.dragon {
+  background: #0c69c8;
+}
+
+.electric {
+  background: #e9e0af;
+}
+
+.fire {
+  background: #f16d39;
+}
+
+.fairy {
+  background: #ee90e6;
+}
+
+.fighting {
+  background: #d3425f;
+}
+
+.flying {
+  background: #a1bbec;
+}
+
+.ghost {
+  background: #5f6dbc;
+}
+
+.grass {
+  background: #5fbd58;
+}
+
+.ground {
+  background: #af5c0e73;
+}
+
+.ice {
+  background: #75d0c1;
+}
+
+.normal {
+  background: #a0a29f;
+}
+
+.poison {
+  background: #ab0cc0;
+}
+
+.psychic {
+  background: #fa8581;
+}
+
+.rock {
+  background: #4a4a4b;
+}
+
+.steel {
+  background: #5695a3;
+}
+
+.water {
+  background: #539ddf;
+}
+
+/* End SVG style code */
+
+/* End local code */
