@@ -10,6 +10,10 @@
         "quotes": [
             "error",
             "single"
-        ]
+        ],
+        // Turns on autofix for all providers including ESLint
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        }
     }
 }
