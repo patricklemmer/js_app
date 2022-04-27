@@ -24,7 +24,7 @@
     <a href="https://github.com/patricklemmer/js_app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/patricklemmer/js_app">View Demo</a>
+    <a href="https://patricklemmer.github.io/js_app/">View Project</a>
     ·
     <a href="https://github.com/patricklemmer/js_app/issues">Report Bug</a>
     ·
@@ -36,20 +36,17 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table of Contents (click to expand)</summary><br>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#key-features">Key Features</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -63,14 +60,13 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project ***(to be updated)***
-<!--
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`-->
+#### Pokedex app, version 1
+
+![Pokedex App screenshot](https://github.com/patricklemmer/assets/blob/main/assets_js-app_homescreen.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -78,10 +74,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 * ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 * ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+* ![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Key features
+### Key Features
 
 * Load data from an external souce (-> https://pokeapi.co/)
 * View a list of items
@@ -92,46 +89,45 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 <!-- GETTING STARTED -->
-## Getting Started ***(to be updated)***
+## Getting Started
 
-<!-- This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-   -->
+See section "Usage" below.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage ***(to be updated)***
+## Usage
 
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Open https://patricklemmer.github.io/js_app/
+2. Read the "How-to" (optional)
+3. Find a Pokemon
+   - Click on any of the 150 buttons
+   - Or use the search function (top right corner)
+4. View and/or extract the information on the Pokemon card
+5. Close the card by clicking the "X" (top right corner of the card), by clicking the "Esc" key on your keyboard, or by clicking/tapping anywhere outside the card with your mouse or finger/pen (on mobile)
+6. Connect with me on Twitter, GitHub or LinkedIn
 
-_For more examples, please refer to the [Documentation](https://example.com)_ -->
+:point_down: Here are two short tutorials on how to use this app: :point_down:
+
+### Desktop :desktop_computer:
+
+<details>
+  <summary>:point_left: Click here to see a short clip on how to navigate this app on desktop</summary><br>
+  <img src="https://github.com/patricklemmer/assets/blob/main/assets_js-app_desktop.gif" height="70%" width="70%">
+  
+</details>
+
+### Mobile :iphone:
+
+<details>
+  <summary>:point_left: Click here to see a short clip on how to navigate this app on a mobile device</summary><br>
+  <img src="https://github.com/patricklemmer/assets/blob/main/assets_js-app_mobile.gif" height="70%" width="70%">
+  
+</details>
+
+(_For more, please refer to the "how-to" box on https://patricklemmer.github.io/js_app/_)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -140,7 +136,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] [Deploy full list of "required features" in section "Technical requirements"](https://images.careerfoundry.com/public/courses/fullstack-immersion/A1/A1_FullStack-Immersion_Project%20Brief.pdf)
+- [x] [Deploy full list of "required features" in section "Technical requirements"](https://images.careerfoundry.com/public/courses/fullstack-immersion/A1/A1_FullStack-Immersion_Project%20Brief.pdf)
 - [ ] [Deploy full list of "nice-to-have" in section "Technical requirements"](https://images.careerfoundry.com/public/courses/fullstack-immersion/A1/A1_FullStack-Immersion_Project%20Brief.pdf)
 
 See the [open issues](https://github.com/patricklemmer/js_app/issues) for a full list of proposed features (and known issues).
@@ -176,9 +172,9 @@ If you have a suggestion that would make this app better, please fork the repo a
 
 
 <!-- LICENSE -->
-## License ***(to be updated)***
+## License
 
-<!-- Distributed under the MIT License. See `LICENSE.txt` for more information.-->
+None
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
