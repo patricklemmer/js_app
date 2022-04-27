@@ -1,20 +1,11 @@
-/* Begin root code */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
 
-:root {
-  --primary-color: #0075be;
-  --secondary-color: #0a285f;
-  --text-color: #fc0;
-  --accent-color-light: #fff;
-  --accent-color-dark: #525252;
-  --header-font-family: 'Press Start 2P', cursive;
-  --body-font-family: 'Press Start 2P', cursive;
-  --h1-font-size: 2rem;
-  --h2-font-size: 1.75rem;
-  --h3-font-size: 1.5rem;
-  --h4-font-size: 1.25rem;
-  --body-font-size: 1rem;
-  --body-line-height: 1.25rem;
-}
+/* Begin root code */
 
 /* End root code */
 
@@ -22,14 +13,25 @@
 
 * *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-html,
+html {
+  background-color: #0075be;
+  color: #fc0;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
-  background-color: var(--primary-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
+  background-color: #0075be;
+  color: #fc0;
+  font-family: 'Press Start 2P', cursive;
   margin: 0;
   padding: 0;
   border: 0;
@@ -44,16 +46,16 @@ body {
 /* Begin navbar code */
 
 .navbar {
-  background-color: var(--secondary-color);
+  background-color: #0a285f;
 }
 
 .navbar-dark .navbar-brand {
-  font-size: var(--h1-font-size);
-  color: var(--text-color);
+  font-size: 2rem;
+  color: #fc0;
 }
 
 .navbar-dark .navbar-brand:hover {
-  color: var(--text-color);
+  color: #fc0;
 }
 
 .navbar-nav {
@@ -61,8 +63,8 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  font-size: calc(var(--body-font-size) - 0.2rem);
-  color: var(--text-color);
+  font-size: calc(1rem - 0.2rem);
+  color: #fc0;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -70,17 +72,17 @@ body {
 }
 
 .navbar-dark .form-inline .form-control {
-  font-size: calc(var(--body-font-size) - 0.2rem);
+  font-size: calc(1rem - 0.2rem);
 }
 
 .btn-warning {
-  font-size: calc(var(--body-font-size) - 0.2rem);
+  font-size: calc(1rem - 0.2rem);
 }
 
 .btn-warning:hover {
-  background-color: var(--text-color);
+  background-color: #fc0;
   color: white;
-  border: var(--text-color);
+  border: #fc0;
 }
 
 /* End navbar code */
@@ -88,7 +90,7 @@ body {
 /* Begin howto box code */
 
 .howto-box {
-  background-color: var(--secondary-color);
+  background-color: #0a285f;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   height: auto;
@@ -103,21 +105,21 @@ body {
 }
 
 .howto-box p {
-  font-size: var(--body-font-size);
-  line-height: var(--body-line-height);
+  font-size: 1rem;
+  line-height: 1.25rem;
 }
 
 .howto-box  p span {
-  color: var(--text-color);
+  color: #fc0;
   font-weight: 700;
 }
 
 #search-button-text {
-  font-family: var(--body-font-family);
-  font-size: calc(var(--body-font-size) - 0.25rem);
+  font-family: 'Press Start 2P', cursive;
+  font-size: calc(1rem - 0.25rem);
   color: black;
-  background-color: var(--text-color);
-  border: 1px solid var(--secondary-color);
+  background-color: #fc0;
+  border: 1px solid #0a285f;
   border-radius: 6px;
   padding: 4px 10px;
 }
@@ -146,10 +148,10 @@ li {
 }
 
 .btn {
-  background-color: var(--text-color);
+  background-color: #fc0;
   margin: 2px;
   border-radius: 10px;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid #0a285f;
   text-transform: capitalize;
 }
 
@@ -167,13 +169,13 @@ li {
 }
 
 .modal-header {
-  color: var(--primary-color);
+  color: #0075be;
   text-transform: capitalize;
   border: none;
 }
 
 .modal-body {
-  color: var(--primary-color);
+  color: #0075be;
   padding-top: 0;
 }
 
@@ -182,16 +184,24 @@ li {
 }
 
 .type-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 190px;
   gap: 5px;
   margin-bottom: 5px;
 }
 
 .pokemon-type-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 25px;
 }
 
@@ -217,7 +227,7 @@ li {
 }
 
 .type-name {
-  font-size: calc(var(--body-font-size) - 0.15rem);
+  font-size: calc(1rem - 0.15rem);
   margin: 0;
 }
 
