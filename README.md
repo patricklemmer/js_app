@@ -64,7 +64,9 @@
 
 #### Pokedex app, version 1
 
-![Pokedex App screenshot](https://github.com/patricklemmer/assets/blob/main/assets_js-app_homescreen.png)
+<a href="https://github.com/patricklemmer/js_app">
+    <img src="https://github.com/patricklemmer/assets/blob/main/assets_js-app_homescreen.png" alt="Logo" width="800" height="600">
+  </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
