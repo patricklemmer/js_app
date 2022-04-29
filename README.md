@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/patricklemmer/js_app">
-    <img src="https://github.com/patricklemmer/assets/blob/5f5338486549519a0e31f09593f53da96feb6a8d/readme_icon.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/patricklemmer/assets/blob/main/readme_icon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Pokemon App</h3>
@@ -147,7 +147,7 @@ See the [open issues](https://github.com/patricklemmer/js_app/issues) for a full
 <!-- CONTRIBUTORS -->
 ## Contributors
 
-<table><tr><td align="center"><a href="https://patricklemmer.github.io/portfolio-website/index.html"><img src="https://github.com/patricklemmer/assets/blob/5f5338486549519a0e31f09593f53da96feb6a8d/profile_image.png" width="100px;" alt="Patrick Lemmer"/><br /><sub><b>Patrick Lemmer</b></sub></a><br /><a href="https://github.com/patricklemmer/js_app/commits/master" title="Code">💻</a></td></tr>
+<table><tr><td align="center"><a href="https://patricklemmer.github.io/portfolio-website/index.html"><img src="https://github.com/patricklemmer/assets/blob/main/profile_image.png" width="100px;" alt="Patrick Lemmer"/><br /><sub><b>Patrick Lemmer</b></sub></a><br /><a href="https://github.com/patricklemmer/js_app/commits/master" title="Code">💻</a></td></tr>
 </table>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
